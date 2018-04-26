@@ -1,0 +1,26 @@
+
+.header {
+
+    height: $header-height; 
+    background: $schooner;
+    position: relative;    
+
+    &__title {
+
+        text-align: center;
+        font-size: 3.2rem;
+        font-weight: 400;
+        letter-spacing: 2px;
+        color: $athens-grey;  
+
+        display: inline-block;
+        position: absolute;        
+        transform: translate(-50%, -50%);
+        top: 50%;
+        left: 50%;
+
+        margin: 2rem 0;
+        padding: 2rem 7rem;
+        border: solid 2px $athens-grey;
+    }
+}
