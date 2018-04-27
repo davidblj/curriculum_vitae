@@ -1,26 +1,49 @@
 
-.header {
+$square-side: 20rem;
 
-    height: $header-height; 
-    background: $schooner;
-    position: relative;    
+.header {
+  left: 50%;
+  height: calc(#{$square-side} + #{$square-side}/2);
+  // position: relative;
+  // transform: translateX(-50%);
+}
+
+.square {
+
+    height: $square-side;
+    width: $square-side;
+    background: $color-primary;
+    clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
 
     &__title {
 
         text-align: center;
-        font-size: 3.2rem;
-        font-weight: 400;
-        letter-spacing: 2px;
-        color: $athens-grey;  
+        font-size: 2rem;
+        font-weight: 300;
+        letter-spacing: 4px;
+        color: $color-secondary-light;
 
         display: inline-block;
-        position: absolute;        
+        position: absolute;
         transform: translate(-50%, -50%);
         top: 50%;
         left: 50%;
+    }
 
-        margin: 2rem 0;
-        padding: 2rem 7rem;
-        border: solid 2px $athens-grey;
+    &_position_default {
+        position: relative;
+    }
+
+    &_position_bottom {
+
+      position: absolute;
+      transform: translate(50%, -50%);
+    }
+
+    &_position_right {
+
+      position: absolute;
+      top: 0%;
+      transform: translateX(100%);
     }
 }

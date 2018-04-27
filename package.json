@@ -4,11 +4,13 @@
   "description": "",
   "main": "index.js",
   "dependencies": {
+    "gulp": "^3.9.1",
+    "gulp-html-pdf": "^0.3.0",
     "live-server": "^1.2.0",
     "node-sass": "^4.9.0"
   },
   "devDependencies": {},
-  "scripts": {    
+  "scripts": {
     "watch:live": "live-server",
     "compile:sass": "node-sass scss/main.scss css/style.css -w"
   },

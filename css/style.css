@@ -15,24 +15,37 @@ body {
   font-weight: 400; }
 
 .vitae {
-  background: #262830;
-  padding: 2rem; }
+  background: #F0EBE8;
+  margin-top: 2rem;
+  padding: 0rem 25rem;
+  position: relative; }
 
 .header {
-  height: 25rem;
-  background: #a79c96;
-  position: relative; }
-  .header__title {
+  left: 50%;
+  height: calc(20rem + 20rem/2); }
+
+.square {
+  height: 20rem;
+  width: 20rem;
+  background: #B8A49A;
+  clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%); }
+  .square__title {
     text-align: center;
-    font-size: 3.2rem;
-    font-weight: 400;
-    letter-spacing: 2px;
-    color: #E5E7EE;
+    font-size: 2rem;
+    font-weight: 300;
+    letter-spacing: 4px;
+    color: #F0EBE8;
     display: inline-block;
     position: absolute;
     transform: translate(-50%, -50%);
     top: 50%;
-    left: 50%;
-    margin: 2rem 0;
-    padding: 2rem 7rem;
-    border: solid 2px #E5E7EE; }
+    left: 50%; }
+  .square_position_default {
+    position: relative; }
+  .square_position_bottom {
+    position: absolute;
+    transform: translate(50%, -50%); }
+  .square_position_right {
+    position: absolute;
+    top: 0%;
+    transform: translateX(100%); }
