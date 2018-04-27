@@ -1,11 +1,13 @@
 
 $square-side: 20rem;
 
-.header {
+.brand {
+
+  position: relative;
+  transform: translateX(-50%);
   left: 50%;
   height: calc(#{$square-side} + #{$square-side}/2);
-  // position: relative;
-  // transform: translateX(-50%);
+  width: calc(#{$square-side} * 2);  
 }
 
 .square {
@@ -21,29 +23,40 @@ $square-side: 20rem;
         font-size: 2rem;
         font-weight: 300;
         letter-spacing: 4px;
-        color: $color-secondary-light;
 
         display: inline-block;
         position: absolute;
         transform: translate(-50%, -50%);
         top: 50%;
         left: 50%;
+
+        &_color_light {
+          color: $color-secondary-light;
+        }
+
+        &_color_dark {
+          color: $color-primary;
+        }
     }
 
     &_position_default {
-        position: relative;
+        position: absolute;
+        top: 0%;
+        left: 0%;
     }
 
     &_position_bottom {
 
-      position: absolute;
-      transform: translate(50%, -50%);
+        position: absolute;
+        top: 0%;
+        transform: translate(50%, 50%);  // x,y
+        background: $color-tertiary;
     }
 
     &_position_right {
 
-      position: absolute;
-      top: 0%;
-      transform: translateX(100%);
+        position: absolute;
+        top: 0%;
+        transform: translateX(100%);
     }
 }

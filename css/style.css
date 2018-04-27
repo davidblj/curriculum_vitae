@@ -15,14 +15,27 @@ body {
   font-weight: 400; }
 
 .vitae {
-  background: #F0EBE8;
-  margin-top: 2rem;
-  padding: 0rem 25rem;
+  background: white;
+  margin-top: 7rem;
   position: relative; }
+  .vitae-box {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 120rem; }
 
 .header {
+  position: relative;
+  background: #F0EBE8; }
+  .header .brand-box {
+    padding-top: 5rem; }
+
+.brand {
+  position: relative;
+  transform: translateX(-50%);
   left: 50%;
-  height: calc(20rem + 20rem/2); }
+  height: calc(20rem + 20rem/2);
+  width: calc(20rem * 2); }
 
 .square {
   height: 20rem;
@@ -34,18 +47,40 @@ body {
     font-size: 2rem;
     font-weight: 300;
     letter-spacing: 4px;
-    color: #F0EBE8;
     display: inline-block;
     position: absolute;
     transform: translate(-50%, -50%);
     top: 50%;
     left: 50%; }
+    .square__title_color_light {
+      color: #F0EBE8; }
+    .square__title_color_dark {
+      color: #B8A49A; }
   .square_position_default {
-    position: relative; }
+    position: absolute;
+    top: 0%;
+    left: 0%; }
   .square_position_bottom {
     position: absolute;
-    transform: translate(50%, -50%); }
+    top: 0%;
+    transform: translate(50%, 50%);
+    background: #6E6561; }
   .square_position_right {
     position: absolute;
     top: 0%;
     transform: translateX(100%); }
+
+.corner {
+  position: absolute;
+  width: 8rem;
+  height: 8rem; }
+  .corner_position_left {
+    top: 0;
+    left: 0;
+    border-left: 1.2rem solid #B8A49A;
+    border-top: 1.2rem solid #B8A49A; }
+  .corner_position_right {
+    top: 0;
+    right: 0;
+    border-right: 1.2rem solid #B8A49A;
+    border-top: 1.2rem solid #B8A49A; }
