@@ -1,0 +1,6 @@
+
+@mixin  x-axis-center-alignment {
+
+  left: 50%;
+  transform: translateX(-50%);
+}

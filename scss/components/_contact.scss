@@ -1,0 +1,26 @@
+
+.contact {
+
+  text-align: center;
+  padding: 4rem 0;
+  position: relative;
+
+  font-family: "Gugi", sans-serif;
+  font-size: 1.6rem;
+  color: $color-tertiary;
+
+  &__item {
+
+    display: inline-block;
+    margin-right: 7.5rem;
+  }
+
+  &__icon {
+
+    margin-bottom: 3px;
+
+    img {
+      height: 2.5rem;
+    }
+  }
+}

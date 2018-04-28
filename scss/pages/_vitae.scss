@@ -1,24 +1,34 @@
 
 .vitae {
+
     background: $white;
     margin-top: 7rem;
     position: relative;
 
     &-box {
+
       position: absolute;
-      left: 50%;
-      transform: translateX(-50%);
+      @include x-axis-center-alignment;
+      
       width: $vitae-box;
+      height: 100vh;
     }
 }
 
 .header {
 
   position: relative;
-  background: $color-secondary-light;
+  background: $color-secondary-light-1;
 
   .brand-box {
 
     padding-top: 5rem;
   }
+}
+
+.profile {
+
+  height: $profile-height;
+  background: $color-secondary-light-2;
+  padding: 0 5rem;
 }

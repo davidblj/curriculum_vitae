@@ -1,4 +1,6 @@
 @import url("https://fonts.googleapis.com/css?family=Playfair+Display|Raleway:300,400,500");
+@import url("https://fonts.googleapis.com/css?family=Gugi");
+@import url("https://fonts.googleapis.com/css?family=Lobster");
 * {
   margin: 0;
   padding: 0;
@@ -12,7 +14,8 @@ body {
 
 body {
   font-family: "Raleway", sans-serif;
-  font-weight: 400; }
+  font-weight: 400;
+  font-size: 1.7rem; }
 
 .vitae {
   background: white;
@@ -22,7 +25,8 @@ body {
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
-    width: 120rem; }
+    width: 120rem;
+    height: 100vh; }
 
 .header {
   position: relative;
@@ -30,10 +34,15 @@ body {
   .header .brand-box {
     padding-top: 5rem; }
 
+.profile {
+  height: 25rem;
+  background: #faf8f7;
+  padding: 0 5rem; }
+
 .brand {
   position: relative;
-  transform: translateX(-50%);
   left: 50%;
+  transform: translateX(-50%);
   height: calc(20rem + 20rem/2);
   width: calc(20rem * 2); }
 
@@ -53,7 +62,7 @@ body {
     top: 50%;
     left: 50%; }
     .square__title_color_light {
-      color: #F0EBE8; }
+      color: #faf8f7; }
     .square__title_color_dark {
       color: #B8A49A; }
   .square_position_default {
@@ -84,3 +93,43 @@ body {
     right: 0;
     border-right: 1.2rem solid #B8A49A;
     border-top: 1.2rem solid #B8A49A; }
+
+.contact {
+  text-align: center;
+  padding: 4rem 0;
+  position: relative;
+  font-family: "Gugi", sans-serif;
+  font-size: 1.6rem;
+  color: #6E6561; }
+  .contact__item {
+    display: inline-block;
+    margin-right: 7.5rem; }
+  .contact__icon {
+    margin-bottom: 3px; }
+    .contact__icon img {
+      height: 2.5rem; }
+
+.category {
+  text-align: center; }
+  .category__title {
+    font-family: "Lobster", sans-serif;
+    font-size: 3rem;
+    color: #6E6561;
+    padding-top: 4rem;
+    padding-bottom: 1rem; }
+  .category__triangle {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 2rem;
+    height: 1rem;
+    background: #B8A49A;
+    clip-path: polygon(50% 0%, 0% 100%, 100% 100%); }
+  .category__line {
+    height: 3.5px;
+    width: 100%;
+    background: #B8A49A; }
+
+.triangle-box {
+  position: relative;
+  height: 1rem; }

@@ -1,5 +1,6 @@
 
 @import "abstracts/variables";
+@import "abstracts/mixins";
 
 @import "base/base";
 @import "base/typography";
@@ -8,3 +9,7 @@
 
 @import "components/brand";
 @import "components/corner";
+@import "components/contact";
+@import "components/category";
+@import "components/about";
+ 

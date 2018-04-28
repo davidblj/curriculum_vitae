@@ -4,10 +4,9 @@ $square-side: 20rem;
 .brand {
 
   position: relative;
-  transform: translateX(-50%);
-  left: 50%;
+  @include x-axis-center-alignment;
   height: calc(#{$square-side} + #{$square-side}/2);
-  width: calc(#{$square-side} * 2);  
+  width: calc(#{$square-side} * 2);
 }
 
 .square {
@@ -31,7 +30,7 @@ $square-side: 20rem;
         left: 50%;
 
         &_color_light {
-          color: $color-secondary-light;
+          color: $color-secondary-light-2;
         }
 
         &_color_dark {

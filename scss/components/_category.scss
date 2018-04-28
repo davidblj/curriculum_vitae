@@ -1,0 +1,42 @@
+
+$triangle-width: 2rem;
+$triangle-heigth: 1rem;
+$line-heigth: 3.5px;
+
+.category {
+
+  text-align: center;
+
+  &__title {
+
+    font-family: "Lobster", sans-serif;
+    font-size: 3rem;
+    color: $color-tertiary;
+    padding-top: 4rem;
+    padding-bottom: 1rem;
+  }
+
+  &__triangle {
+
+    position: absolute;
+    @include x-axis-center-alignment;
+
+    width: $triangle-width;
+    height: $triangle-heigth;
+    background: $color-primary;
+    clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+  }
+
+  &__line {
+
+    height: $line-heigth;
+    width: 100%;
+    background: $color-primary;
+  }
+}
+
+.triangle-box {
+
+  position: relative;
+  height: $triangle-heigth;
+}

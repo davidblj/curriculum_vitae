@@ -4,17 +4,17 @@ $color-primary: #B8A49A;
 $color-primary-light: #CFC1B8;
 
 $color-secondary: #E6E0DA;
-$color-secondary-light: #F0EBE8;
+$color-secondary-light-1: #F0EBE8;
+$color-secondary-light-2: lighten($color-secondary-light-1, 5%);
 
 $color-tertiary: #6E6561;
+$color-tertiary-dark: darken($color-tertiary, 15%);
 
-// E6EAEE
 $white: white;
+$white-dark: darken($white, 2%);
 
-// vitae
+// vitae component
 
 $vitae-box: 120rem;
-
-// header
-
 $header-height: 20rem;
+$profile-height: 25rem;
