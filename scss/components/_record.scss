@@ -1,0 +1,39 @@
+
+.record {
+
+  display: flex;
+  justify-content: center;
+
+  & > * {
+    display: inline-block;
+  }
+
+  &__item {
+
+    margin-top: 1.5rem;
+    position: relative;
+    background: $white;
+    border: 5px solid $color-tertiary;
+    width: 30rem;
+    padding: 3rem 1rem;
+    text-align: center;
+
+    &:not(:last-child) {
+        margin-right: 8rem;
+    }
+  }
+
+  &__title {
+
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    font-family: "Great Vibes", sans-serif;
+    font-size: 3.5rem;
+    padding: 0 1rem;
+    background: $color-secondary-light-2;
+    display: inline-block;
+  }
+}

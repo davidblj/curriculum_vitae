@@ -10,7 +10,7 @@
       position: absolute;
       @include x-axis-center-alignment;
       width: $vitae-box;
-      height: 100vh;
+      height: 150vh;
     }
 }
 
@@ -28,5 +28,11 @@
 .profile {
 
   background: $color-secondary-light-2;
-  padding: 5rem 5rem;
+  padding: $content-padding $content-padding 0 $content-padding;
+}
+
+.education {
+
+  background: $color-secondary-light-2;
+  padding: $content-padding $content-padding 0 $content-padding;
 }
