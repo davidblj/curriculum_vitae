@@ -51,13 +51,13 @@ body {
 .footer {
   background: #faf8f7;
   position: relative;
-  height: 16rem;
+  height: 18rem;
   margin-bottom: 7rem; }
   .footer a {
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translateX(-50, -50%); }
+    transform: translate(-50%, -50%); }
   .footer img {
     height: 4rem; }
 
