@@ -28,8 +28,7 @@ body {
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
-    width: 120rem;
-    height: 150vh; }
+    width: 120rem; }
 
 .header {
   position: relative;
@@ -42,6 +41,10 @@ body {
   padding: 5rem 5rem 0 5rem; }
 
 .education {
+  background: #faf8f7;
+  padding: 5rem 5rem 0 5rem; }
+
+.skills {
   background: #faf8f7;
   padding: 5rem 5rem 0 5rem; }
 
@@ -154,7 +157,7 @@ body {
   .record > * {
     display: inline-block; }
   .record__item {
-    margin-top: 1.5rem;
+    margin: 3rem 0;
     position: relative;
     background: white;
     border: 5px solid #6E6561;
@@ -173,3 +176,1149 @@ body {
     padding: 0 1rem;
     background: #faf8f7;
     display: inline-block; }
+
+.chart {
+  margin-bottom: 2rem;
+  position: relative;
+  height: 15rem; }
+  .chart__category {
+    width: 15rem;
+    font-size: 2.2rem;
+    padding-left: 1rem;
+    display: inline-block;
+    background: #E6E0DA;
+    position: absolute;
+    bottom: 0;
+    transform: rotate(-90deg) translateY(100%);
+    transform-origin: left bottom 0; }
+  .chart__graph {
+    position: absolute;
+    left: 3rem;
+    height: 15rem;
+    width: 50rem; }
+  .chart_position_1 {
+    margin-left: 5rem; }
+  .chart_position_2 {
+    margin-left: 25rem; }
+  .chart_position_3 {
+    margin-left: 45rem; }
+
+.bar {
+  padding-left: 2rem;
+  align-items: center;
+  position: relative; }
+  .bar__title {
+    margin: 0.5rem;
+    font-size: 1.5rem; }
+  .bar__gauge {
+    height: 10px;
+    border-radius: 30px;
+    background: #E6E0DA;
+    width: inherit;
+    position: relative; }
+    .bar__gauge-1::after {
+      display: inline-block;
+      content: "";
+      width: 1%;
+      height: 100%;
+      position: absolute;
+      top: 0;
+      left: 0;
+      z-index: 5;
+      background: #6E6561;
+      border-radius: inherit; }
+    .bar__gauge-2::after {
+      display: inline-block;
+      content: "";
+      width: 2%;
+      height: 100%;
+      position: absolute;
+      top: 0;
+      left: 0;
+      z-index: 5;
+      background: #6E6561;
+      border-radius: inherit; }
+    .bar__gauge-3::after {
+      display: inline-block;
+      content: "";
+      width: 3%;
+      height: 100%;
+      position: absolute;
+      top: 0;
+      left: 0;
+      z-index: 5;
+      background: #6E6561;
+      border-radius: inherit; }
+    .bar__gauge-4::after {
+      display: inline-block;
+      content: "";
+      width: 4%;
+      height: 100%;
+      position: absolute;
+      top: 0;
+      left: 0;
+      z-index: 5;
+      background: #6E6561;
+      border-radius: inherit; }
+    .bar__gauge-5::after {
+      display: inline-block;
+      content: "";
+      width: 5%;
+      height: 100%;
+      position: absolute;
+      top: 0;
+      left: 0;
+      z-index: 5;
+      background: #6E6561;
+      border-radius: inherit; }
+    .bar__gauge-6::after {
+      display: inline-block;
+      content: "";
+      width: 6%;
+      height: 100%;
+      position: absolute;
+      top: 0;
+      left: 0;
+      z-index: 5;
+      background: #6E6561;
+      border-radius: inherit; }
+    .bar__gauge-7::after {
+      display: inline-block;
+      content: "";
+      width: 7%;
+      height: 100%;
+      position: absolute;
+      top: 0;
+      left: 0;
+      z-index: 5;
+      background: #6E6561;
+      border-radius: inherit; }
+    .bar__gauge-8::after {
+      display: inline-block;
+      content: "";
+      width: 8%;
+      height: 100%;
+      position: absolute;
+      top: 0;
+      left: 0;
+      z-index: 5;
+      background: #6E6561;
+      border-radius: inherit; }
+    .bar__gauge-9::after {
+      display: inline-block;
+      content: "";
+      width: 9%;
+      height: 100%;
+      position: absolute;
+      top: 0;
+      left: 0;
+      z-index: 5;
+      background: #6E6561;
+      border-radius: inherit; }
+    .bar__gauge-10::after {
+      display: inline-block;
+      content: "";
+      width: 10%;
+      height: 100%;
+      position: absolute;
+      top: 0;
+      left: 0;
+      z-index: 5;
+      background: #6E6561;
+      border-radius: inherit; }
+    .bar__gauge-11::after {
+      display: inline-block;
+      content: "";
+      width: 11%;
+      height: 100%;
+      position: absolute;
+      top: 0;
+      left: 0;
+      z-index: 5;
+      background: #6E6561;
+      border-radius: inherit; }
+    .bar__gauge-12::after {
+      display: inline-block;
+      content: "";
+      width: 12%;
+      height: 100%;
+      position: absolute;
+      top: 0;
+      left: 0;
+      z-index: 5;
+      background: #6E6561;
+      border-radius: inherit; }
+    .bar__gauge-13::after {
+      display: inline-block;
+      content: "";
+      width: 13%;
+      height: 100%;
+      position: absolute;
+      top: 0;
+      left: 0;
+      z-index: 5;
+      background: #6E6561;
+      border-radius: inherit; }
+    .bar__gauge-14::after {
+      display: inline-block;
+      content: "";
+      width: 14%;
+      height: 100%;
+      position: absolute;
+      top: 0;
+      left: 0;
+      z-index: 5;
+      background: #6E6561;
+      border-radius: inherit; }
+    .bar__gauge-15::after {
+      display: inline-block;
+      content: "";
+      width: 15%;
+      height: 100%;
+      position: absolute;
+      top: 0;
+      left: 0;
+      z-index: 5;
+      background: #6E6561;
+      border-radius: inherit; }
+    .bar__gauge-16::after {
+      display: inline-block;
+      content: "";
+      width: 16%;
+      height: 100%;
+      position: absolute;
+      top: 0;
+      left: 0;
+      z-index: 5;
+      background: #6E6561;
+      border-radius: inherit; }
+    .bar__gauge-17::after {
+      display: inline-block;
+      content: "";
+      width: 17%;
+      height: 100%;
+      position: absolute;
+      top: 0;
+      left: 0;
+      z-index: 5;
+      background: #6E6561;
+      border-radius: inherit; }
+    .bar__gauge-18::after {
+      display: inline-block;
+      content: "";
+      width: 18%;
+      height: 100%;
+      position: absolute;
+      top: 0;
+      left: 0;
+      z-index: 5;
+      background: #6E6561;
+      border-radius: inherit; }
+    .bar__gauge-19::after {
+      display: inline-block;
+      content: "";
+      width: 19%;
+      height: 100%;
+      position: absolute;
+      top: 0;
+      left: 0;
+      z-index: 5;
+      background: #6E6561;
+      border-radius: inherit; }
+    .bar__gauge-20::after {
+      display: inline-block;
+      content: "";
+      width: 20%;
+      height: 100%;
+      position: absolute;
+      top: 0;
+      left: 0;
+      z-index: 5;
+      background: #6E6561;
+      border-radius: inherit; }
+    .bar__gauge-21::after {
+      display: inline-block;
+      content: "";
+      width: 21%;
+      height: 100%;
+      position: absolute;
+      top: 0;
+      left: 0;
+      z-index: 5;
+      background: #6E6561;
+      border-radius: inherit; }
+    .bar__gauge-22::after {
+      display: inline-block;
+      content: "";
+      width: 22%;
+      height: 100%;
+      position: absolute;
+      top: 0;
+      left: 0;
+      z-index: 5;
+      background: #6E6561;
+      border-radius: inherit; }
+    .bar__gauge-23::after {
+      display: inline-block;
+      content: "";
+      width: 23%;
+      height: 100%;
+      position: absolute;
+      top: 0;
+      left: 0;
+      z-index: 5;
+      background: #6E6561;
+      border-radius: inherit; }
+    .bar__gauge-24::after {
+      display: inline-block;
+      content: "";
+      width: 24%;
+      height: 100%;
+      position: absolute;
+      top: 0;
+      left: 0;
+      z-index: 5;
+      background: #6E6561;
+      border-radius: inherit; }
+    .bar__gauge-25::after {
+      display: inline-block;
+      content: "";
+      width: 25%;
+      height: 100%;
+      position: absolute;
+      top: 0;
+      left: 0;
+      z-index: 5;
+      background: #6E6561;
+      border-radius: inherit; }
+    .bar__gauge-26::after {
+      display: inline-block;
+      content: "";
+      width: 26%;
+      height: 100%;
+      position: absolute;
+      top: 0;
+      left: 0;
+      z-index: 5;
+      background: #6E6561;
+      border-radius: inherit; }
+    .bar__gauge-27::after {
+      display: inline-block;
+      content: "";
+      width: 27%;
+      height: 100%;
+      position: absolute;
+      top: 0;
+      left: 0;
+      z-index: 5;
+      background: #6E6561;
+      border-radius: inherit; }
+    .bar__gauge-28::after {
+      display: inline-block;
+      content: "";
+      width: 28%;
+      height: 100%;
+      position: absolute;
+      top: 0;
+      left: 0;
+      z-index: 5;
+      background: #6E6561;
+      border-radius: inherit; }
+    .bar__gauge-29::after {
+      display: inline-block;
+      content: "";
+      width: 29%;
+      height: 100%;
+      position: absolute;
+      top: 0;
+      left: 0;
+      z-index: 5;
+      background: #6E6561;
+      border-radius: inherit; }
+    .bar__gauge-30::after {
+      display: inline-block;
+      content: "";
+      width: 30%;
+      height: 100%;
+      position: absolute;
+      top: 0;
+      left: 0;
+      z-index: 5;
+      background: #6E6561;
+      border-radius: inherit; }
+    .bar__gauge-31::after {
+      display: inline-block;
+      content: "";
+      width: 31%;
+      height: 100%;
+      position: absolute;
+      top: 0;
+      left: 0;
+      z-index: 5;
+      background: #6E6561;
+      border-radius: inherit; }
+    .bar__gauge-32::after {
+      display: inline-block;
+      content: "";
+      width: 32%;
+      height: 100%;
+      position: absolute;
+      top: 0;
+      left: 0;
+      z-index: 5;
+      background: #6E6561;
+      border-radius: inherit; }
+    .bar__gauge-33::after {
+      display: inline-block;
+      content: "";
+      width: 33%;
+      height: 100%;
+      position: absolute;
+      top: 0;
+      left: 0;
+      z-index: 5;
+      background: #6E6561;
+      border-radius: inherit; }
+    .bar__gauge-34::after {
+      display: inline-block;
+      content: "";
+      width: 34%;
+      height: 100%;
+      position: absolute;
+      top: 0;
+      left: 0;
+      z-index: 5;
+      background: #6E6561;
+      border-radius: inherit; }
+    .bar__gauge-35::after {
+      display: inline-block;
+      content: "";
+      width: 35%;
+      height: 100%;
+      position: absolute;
+      top: 0;
+      left: 0;
+      z-index: 5;
+      background: #6E6561;
+      border-radius: inherit; }
+    .bar__gauge-36::after {
+      display: inline-block;
+      content: "";
+      width: 36%;
+      height: 100%;
+      position: absolute;
+      top: 0;
+      left: 0;
+      z-index: 5;
+      background: #6E6561;
+      border-radius: inherit; }
+    .bar__gauge-37::after {
+      display: inline-block;
+      content: "";
+      width: 37%;
+      height: 100%;
+      position: absolute;
+      top: 0;
+      left: 0;
+      z-index: 5;
+      background: #6E6561;
+      border-radius: inherit; }
+    .bar__gauge-38::after {
+      display: inline-block;
+      content: "";
+      width: 38%;
+      height: 100%;
+      position: absolute;
+      top: 0;
+      left: 0;
+      z-index: 5;
+      background: #6E6561;
+      border-radius: inherit; }
+    .bar__gauge-39::after {
+      display: inline-block;
+      content: "";
+      width: 39%;
+      height: 100%;
+      position: absolute;
+      top: 0;
+      left: 0;
+      z-index: 5;
+      background: #6E6561;
+      border-radius: inherit; }
+    .bar__gauge-40::after {
+      display: inline-block;
+      content: "";
+      width: 40%;
+      height: 100%;
+      position: absolute;
+      top: 0;
+      left: 0;
+      z-index: 5;
+      background: #6E6561;
+      border-radius: inherit; }
+    .bar__gauge-41::after {
+      display: inline-block;
+      content: "";
+      width: 41%;
+      height: 100%;
+      position: absolute;
+      top: 0;
+      left: 0;
+      z-index: 5;
+      background: #6E6561;
+      border-radius: inherit; }
+    .bar__gauge-42::after {
+      display: inline-block;
+      content: "";
+      width: 42%;
+      height: 100%;
+      position: absolute;
+      top: 0;
+      left: 0;
+      z-index: 5;
+      background: #6E6561;
+      border-radius: inherit; }
+    .bar__gauge-43::after {
+      display: inline-block;
+      content: "";
+      width: 43%;
+      height: 100%;
+      position: absolute;
+      top: 0;
+      left: 0;
+      z-index: 5;
+      background: #6E6561;
+      border-radius: inherit; }
+    .bar__gauge-44::after {
+      display: inline-block;
+      content: "";
+      width: 44%;
+      height: 100%;
+      position: absolute;
+      top: 0;
+      left: 0;
+      z-index: 5;
+      background: #6E6561;
+      border-radius: inherit; }
+    .bar__gauge-45::after {
+      display: inline-block;
+      content: "";
+      width: 45%;
+      height: 100%;
+      position: absolute;
+      top: 0;
+      left: 0;
+      z-index: 5;
+      background: #6E6561;
+      border-radius: inherit; }
+    .bar__gauge-46::after {
+      display: inline-block;
+      content: "";
+      width: 46%;
+      height: 100%;
+      position: absolute;
+      top: 0;
+      left: 0;
+      z-index: 5;
+      background: #6E6561;
+      border-radius: inherit; }
+    .bar__gauge-47::after {
+      display: inline-block;
+      content: "";
+      width: 47%;
+      height: 100%;
+      position: absolute;
+      top: 0;
+      left: 0;
+      z-index: 5;
+      background: #6E6561;
+      border-radius: inherit; }
+    .bar__gauge-48::after {
+      display: inline-block;
+      content: "";
+      width: 48%;
+      height: 100%;
+      position: absolute;
+      top: 0;
+      left: 0;
+      z-index: 5;
+      background: #6E6561;
+      border-radius: inherit; }
+    .bar__gauge-49::after {
+      display: inline-block;
+      content: "";
+      width: 49%;
+      height: 100%;
+      position: absolute;
+      top: 0;
+      left: 0;
+      z-index: 5;
+      background: #6E6561;
+      border-radius: inherit; }
+    .bar__gauge-50::after {
+      display: inline-block;
+      content: "";
+      width: 50%;
+      height: 100%;
+      position: absolute;
+      top: 0;
+      left: 0;
+      z-index: 5;
+      background: #6E6561;
+      border-radius: inherit; }
+    .bar__gauge-51::after {
+      display: inline-block;
+      content: "";
+      width: 51%;
+      height: 100%;
+      position: absolute;
+      top: 0;
+      left: 0;
+      z-index: 5;
+      background: #6E6561;
+      border-radius: inherit; }
+    .bar__gauge-52::after {
+      display: inline-block;
+      content: "";
+      width: 52%;
+      height: 100%;
+      position: absolute;
+      top: 0;
+      left: 0;
+      z-index: 5;
+      background: #6E6561;
+      border-radius: inherit; }
+    .bar__gauge-53::after {
+      display: inline-block;
+      content: "";
+      width: 53%;
+      height: 100%;
+      position: absolute;
+      top: 0;
+      left: 0;
+      z-index: 5;
+      background: #6E6561;
+      border-radius: inherit; }
+    .bar__gauge-54::after {
+      display: inline-block;
+      content: "";
+      width: 54%;
+      height: 100%;
+      position: absolute;
+      top: 0;
+      left: 0;
+      z-index: 5;
+      background: #6E6561;
+      border-radius: inherit; }
+    .bar__gauge-55::after {
+      display: inline-block;
+      content: "";
+      width: 55%;
+      height: 100%;
+      position: absolute;
+      top: 0;
+      left: 0;
+      z-index: 5;
+      background: #6E6561;
+      border-radius: inherit; }
+    .bar__gauge-56::after {
+      display: inline-block;
+      content: "";
+      width: 56%;
+      height: 100%;
+      position: absolute;
+      top: 0;
+      left: 0;
+      z-index: 5;
+      background: #6E6561;
+      border-radius: inherit; }
+    .bar__gauge-57::after {
+      display: inline-block;
+      content: "";
+      width: 57%;
+      height: 100%;
+      position: absolute;
+      top: 0;
+      left: 0;
+      z-index: 5;
+      background: #6E6561;
+      border-radius: inherit; }
+    .bar__gauge-58::after {
+      display: inline-block;
+      content: "";
+      width: 58%;
+      height: 100%;
+      position: absolute;
+      top: 0;
+      left: 0;
+      z-index: 5;
+      background: #6E6561;
+      border-radius: inherit; }
+    .bar__gauge-59::after {
+      display: inline-block;
+      content: "";
+      width: 59%;
+      height: 100%;
+      position: absolute;
+      top: 0;
+      left: 0;
+      z-index: 5;
+      background: #6E6561;
+      border-radius: inherit; }
+    .bar__gauge-60::after {
+      display: inline-block;
+      content: "";
+      width: 60%;
+      height: 100%;
+      position: absolute;
+      top: 0;
+      left: 0;
+      z-index: 5;
+      background: #6E6561;
+      border-radius: inherit; }
+    .bar__gauge-61::after {
+      display: inline-block;
+      content: "";
+      width: 61%;
+      height: 100%;
+      position: absolute;
+      top: 0;
+      left: 0;
+      z-index: 5;
+      background: #6E6561;
+      border-radius: inherit; }
+    .bar__gauge-62::after {
+      display: inline-block;
+      content: "";
+      width: 62%;
+      height: 100%;
+      position: absolute;
+      top: 0;
+      left: 0;
+      z-index: 5;
+      background: #6E6561;
+      border-radius: inherit; }
+    .bar__gauge-63::after {
+      display: inline-block;
+      content: "";
+      width: 63%;
+      height: 100%;
+      position: absolute;
+      top: 0;
+      left: 0;
+      z-index: 5;
+      background: #6E6561;
+      border-radius: inherit; }
+    .bar__gauge-64::after {
+      display: inline-block;
+      content: "";
+      width: 64%;
+      height: 100%;
+      position: absolute;
+      top: 0;
+      left: 0;
+      z-index: 5;
+      background: #6E6561;
+      border-radius: inherit; }
+    .bar__gauge-65::after {
+      display: inline-block;
+      content: "";
+      width: 65%;
+      height: 100%;
+      position: absolute;
+      top: 0;
+      left: 0;
+      z-index: 5;
+      background: #6E6561;
+      border-radius: inherit; }
+    .bar__gauge-66::after {
+      display: inline-block;
+      content: "";
+      width: 66%;
+      height: 100%;
+      position: absolute;
+      top: 0;
+      left: 0;
+      z-index: 5;
+      background: #6E6561;
+      border-radius: inherit; }
+    .bar__gauge-67::after {
+      display: inline-block;
+      content: "";
+      width: 67%;
+      height: 100%;
+      position: absolute;
+      top: 0;
+      left: 0;
+      z-index: 5;
+      background: #6E6561;
+      border-radius: inherit; }
+    .bar__gauge-68::after {
+      display: inline-block;
+      content: "";
+      width: 68%;
+      height: 100%;
+      position: absolute;
+      top: 0;
+      left: 0;
+      z-index: 5;
+      background: #6E6561;
+      border-radius: inherit; }
+    .bar__gauge-69::after {
+      display: inline-block;
+      content: "";
+      width: 69%;
+      height: 100%;
+      position: absolute;
+      top: 0;
+      left: 0;
+      z-index: 5;
+      background: #6E6561;
+      border-radius: inherit; }
+    .bar__gauge-70::after {
+      display: inline-block;
+      content: "";
+      width: 70%;
+      height: 100%;
+      position: absolute;
+      top: 0;
+      left: 0;
+      z-index: 5;
+      background: #6E6561;
+      border-radius: inherit; }
+    .bar__gauge-71::after {
+      display: inline-block;
+      content: "";
+      width: 71%;
+      height: 100%;
+      position: absolute;
+      top: 0;
+      left: 0;
+      z-index: 5;
+      background: #6E6561;
+      border-radius: inherit; }
+    .bar__gauge-72::after {
+      display: inline-block;
+      content: "";
+      width: 72%;
+      height: 100%;
+      position: absolute;
+      top: 0;
+      left: 0;
+      z-index: 5;
+      background: #6E6561;
+      border-radius: inherit; }
+    .bar__gauge-73::after {
+      display: inline-block;
+      content: "";
+      width: 73%;
+      height: 100%;
+      position: absolute;
+      top: 0;
+      left: 0;
+      z-index: 5;
+      background: #6E6561;
+      border-radius: inherit; }
+    .bar__gauge-74::after {
+      display: inline-block;
+      content: "";
+      width: 74%;
+      height: 100%;
+      position: absolute;
+      top: 0;
+      left: 0;
+      z-index: 5;
+      background: #6E6561;
+      border-radius: inherit; }
+    .bar__gauge-75::after {
+      display: inline-block;
+      content: "";
+      width: 75%;
+      height: 100%;
+      position: absolute;
+      top: 0;
+      left: 0;
+      z-index: 5;
+      background: #6E6561;
+      border-radius: inherit; }
+    .bar__gauge-76::after {
+      display: inline-block;
+      content: "";
+      width: 76%;
+      height: 100%;
+      position: absolute;
+      top: 0;
+      left: 0;
+      z-index: 5;
+      background: #6E6561;
+      border-radius: inherit; }
+    .bar__gauge-77::after {
+      display: inline-block;
+      content: "";
+      width: 77%;
+      height: 100%;
+      position: absolute;
+      top: 0;
+      left: 0;
+      z-index: 5;
+      background: #6E6561;
+      border-radius: inherit; }
+    .bar__gauge-78::after {
+      display: inline-block;
+      content: "";
+      width: 78%;
+      height: 100%;
+      position: absolute;
+      top: 0;
+      left: 0;
+      z-index: 5;
+      background: #6E6561;
+      border-radius: inherit; }
+    .bar__gauge-79::after {
+      display: inline-block;
+      content: "";
+      width: 79%;
+      height: 100%;
+      position: absolute;
+      top: 0;
+      left: 0;
+      z-index: 5;
+      background: #6E6561;
+      border-radius: inherit; }
+    .bar__gauge-80::after {
+      display: inline-block;
+      content: "";
+      width: 80%;
+      height: 100%;
+      position: absolute;
+      top: 0;
+      left: 0;
+      z-index: 5;
+      background: #6E6561;
+      border-radius: inherit; }
+    .bar__gauge-81::after {
+      display: inline-block;
+      content: "";
+      width: 81%;
+      height: 100%;
+      position: absolute;
+      top: 0;
+      left: 0;
+      z-index: 5;
+      background: #6E6561;
+      border-radius: inherit; }
+    .bar__gauge-82::after {
+      display: inline-block;
+      content: "";
+      width: 82%;
+      height: 100%;
+      position: absolute;
+      top: 0;
+      left: 0;
+      z-index: 5;
+      background: #6E6561;
+      border-radius: inherit; }
+    .bar__gauge-83::after {
+      display: inline-block;
+      content: "";
+      width: 83%;
+      height: 100%;
+      position: absolute;
+      top: 0;
+      left: 0;
+      z-index: 5;
+      background: #6E6561;
+      border-radius: inherit; }
+    .bar__gauge-84::after {
+      display: inline-block;
+      content: "";
+      width: 84%;
+      height: 100%;
+      position: absolute;
+      top: 0;
+      left: 0;
+      z-index: 5;
+      background: #6E6561;
+      border-radius: inherit; }
+    .bar__gauge-85::after {
+      display: inline-block;
+      content: "";
+      width: 85%;
+      height: 100%;
+      position: absolute;
+      top: 0;
+      left: 0;
+      z-index: 5;
+      background: #6E6561;
+      border-radius: inherit; }
+    .bar__gauge-86::after {
+      display: inline-block;
+      content: "";
+      width: 86%;
+      height: 100%;
+      position: absolute;
+      top: 0;
+      left: 0;
+      z-index: 5;
+      background: #6E6561;
+      border-radius: inherit; }
+    .bar__gauge-87::after {
+      display: inline-block;
+      content: "";
+      width: 87%;
+      height: 100%;
+      position: absolute;
+      top: 0;
+      left: 0;
+      z-index: 5;
+      background: #6E6561;
+      border-radius: inherit; }
+    .bar__gauge-88::after {
+      display: inline-block;
+      content: "";
+      width: 88%;
+      height: 100%;
+      position: absolute;
+      top: 0;
+      left: 0;
+      z-index: 5;
+      background: #6E6561;
+      border-radius: inherit; }
+    .bar__gauge-89::after {
+      display: inline-block;
+      content: "";
+      width: 89%;
+      height: 100%;
+      position: absolute;
+      top: 0;
+      left: 0;
+      z-index: 5;
+      background: #6E6561;
+      border-radius: inherit; }
+    .bar__gauge-90::after {
+      display: inline-block;
+      content: "";
+      width: 90%;
+      height: 100%;
+      position: absolute;
+      top: 0;
+      left: 0;
+      z-index: 5;
+      background: #6E6561;
+      border-radius: inherit; }
+    .bar__gauge-91::after {
+      display: inline-block;
+      content: "";
+      width: 91%;
+      height: 100%;
+      position: absolute;
+      top: 0;
+      left: 0;
+      z-index: 5;
+      background: #6E6561;
+      border-radius: inherit; }
+    .bar__gauge-92::after {
+      display: inline-block;
+      content: "";
+      width: 92%;
+      height: 100%;
+      position: absolute;
+      top: 0;
+      left: 0;
+      z-index: 5;
+      background: #6E6561;
+      border-radius: inherit; }
+    .bar__gauge-93::after {
+      display: inline-block;
+      content: "";
+      width: 93%;
+      height: 100%;
+      position: absolute;
+      top: 0;
+      left: 0;
+      z-index: 5;
+      background: #6E6561;
+      border-radius: inherit; }
+    .bar__gauge-94::after {
+      display: inline-block;
+      content: "";
+      width: 94%;
+      height: 100%;
+      position: absolute;
+      top: 0;
+      left: 0;
+      z-index: 5;
+      background: #6E6561;
+      border-radius: inherit; }
+    .bar__gauge-95::after {
+      display: inline-block;
+      content: "";
+      width: 95%;
+      height: 100%;
+      position: absolute;
+      top: 0;
+      left: 0;
+      z-index: 5;
+      background: #6E6561;
+      border-radius: inherit; }
+    .bar__gauge-96::after {
+      display: inline-block;
+      content: "";
+      width: 96%;
+      height: 100%;
+      position: absolute;
+      top: 0;
+      left: 0;
+      z-index: 5;
+      background: #6E6561;
+      border-radius: inherit; }
+    .bar__gauge-97::after {
+      display: inline-block;
+      content: "";
+      width: 97%;
+      height: 100%;
+      position: absolute;
+      top: 0;
+      left: 0;
+      z-index: 5;
+      background: #6E6561;
+      border-radius: inherit; }
+    .bar__gauge-98::after {
+      display: inline-block;
+      content: "";
+      width: 98%;
+      height: 100%;
+      position: absolute;
+      top: 0;
+      left: 0;
+      z-index: 5;
+      background: #6E6561;
+      border-radius: inherit; }
+    .bar__gauge-99::after {
+      display: inline-block;
+      content: "";
+      width: 99%;
+      height: 100%;
+      position: absolute;
+      top: 0;
+      left: 0;
+      z-index: 5;
+      background: #6E6561;
+      border-radius: inherit; }
+    .bar__gauge-100::after {
+      display: inline-block;
+      content: "";
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      top: 0;
+      left: 0;
+      z-index: 5;
+      background: #6E6561;
+      border-radius: inherit; }
+
+.bars-box {
+  display: flex;
+  flex-direction: column;
+  height: inherit;
+  justify-content: center; }

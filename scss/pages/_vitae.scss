@@ -10,7 +10,7 @@
       position: absolute;
       @include x-axis-center-alignment;
       width: $vitae-box;
-      height: 150vh;
+      // height: 150vh;
     }
 }
 
@@ -35,4 +35,15 @@
 
   background: $color-secondary-light-2;
   padding: $content-padding $content-padding 0 $content-padding;
+}
+
+.skills {
+
+  background: $color-secondary-light-2;
+  padding: $content-padding $content-padding 0 $content-padding;
+}
+
+.footer {
+
+  
 }

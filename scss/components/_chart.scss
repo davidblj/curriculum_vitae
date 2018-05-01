@@ -1,0 +1,96 @@
+
+$category-width: 15rem;
+$category-heigth: 3rem;
+$graph-width: 50rem;
+
+.chart {
+
+  margin-bottom: 2rem;
+  position: relative;
+  height: $category-width;
+
+  &__category {
+
+    width: $category-width;
+    font-size: 2.2rem;
+    padding-left: 1rem;
+    display: inline-block;
+    background: $color-secondary;
+
+    position: absolute;
+    bottom: 0;
+    transform: rotate(-90deg) translateY(100%);
+    transform-origin: left bottom 0;
+  }
+
+  &__graph {
+
+    position: absolute;
+    left: $category-heigth;
+    height: $category-width;
+    width: $graph-width;
+  }
+
+  &_position_1 {
+    margin-left: 5rem;
+  }
+
+  &_position_2 {
+    margin-left: 25rem;
+  }
+
+  &_position_3 {
+    margin-left: 45rem;
+  }
+}
+
+.bar {
+
+  padding-left: 2rem;
+  align-items: center;
+  position: relative;
+
+  &__title {
+    margin: 0.5rem;
+    font-size: 1.5rem;
+  }
+
+  &__gauge {
+
+    height: 10px;
+    border-radius: 30px;
+    background: $color-secondary;
+    width: inherit;
+    position: relative;
+
+    @for $i from 1 through 100 {
+
+      &-#{$i} {
+        &::after {
+
+          $value: ($i * 1%);
+
+          display: inline-block;
+          content: "";
+          width: $value;
+          height: 100%;
+          position: absolute;
+          top: 0;
+          left: 0;
+          z-index: 5;
+          background: $color-tertiary;
+          border-radius: inherit;
+        }
+      }
+    }
+    
+  }
+}
+
+.bars-box {
+
+  display: flex;
+  flex-direction: column;
+  height: inherit;
+  justify-content: center;
+}
