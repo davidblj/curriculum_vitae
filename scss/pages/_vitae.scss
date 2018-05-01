@@ -45,5 +45,17 @@
 
 .footer {
 
-  
+  background: $color-secondary-light-2;
+  position: relative;
+  height: 16rem;
+  margin-bottom: 7rem;
+
+  a {
+    position: absolute;
+    @include center-alignment;
+  }
+
+  img {
+    height: 4rem;
+  }
 }

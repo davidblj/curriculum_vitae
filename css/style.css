@@ -48,6 +48,19 @@ body {
   background: #faf8f7;
   padding: 5rem 5rem 0 5rem; }
 
+.footer {
+  background: #faf8f7;
+  position: relative;
+  height: 16rem;
+  margin-bottom: 7rem; }
+  .footer a {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50, -50%); }
+  .footer img {
+    height: 4rem; }
+
 .brand {
   position: relative;
   left: 50%;
@@ -102,6 +115,16 @@ body {
     right: 0;
     border-right: 1.2rem solid #B8A49A;
     border-top: 1.2rem solid #B8A49A; }
+  .corner_position_bottom_left {
+    bottom: 0;
+    left: 0;
+    border-left: 1.2rem solid #B8A49A;
+    border-bottom: 1.2rem solid #B8A49A; }
+  .corner_position_bottom_right {
+    bottom: 0;
+    right: 0;
+    border-right: 1.2rem solid #B8A49A;
+    border-bottom: 1.2rem solid #B8A49A; }
 
 .contact {
   text-align: center;
@@ -157,7 +180,7 @@ body {
   .record > * {
     display: inline-block; }
   .record__item {
-    margin: 3rem 0;
+    margin-top: 2.5rem;
     position: relative;
     background: white;
     border: 5px solid #6E6561;
@@ -178,9 +201,10 @@ body {
     display: inline-block; }
 
 .chart {
-  margin-bottom: 2rem;
   position: relative;
   height: 15rem; }
+  .chart:not(:last-child) {
+    margin-bottom: 2rem; }
   .chart__category {
     width: 15rem;
     font-size: 2.2rem;

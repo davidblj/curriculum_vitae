@@ -5,9 +5,12 @@ $graph-width: 50rem;
 
 .chart {
 
-  margin-bottom: 2rem;
   position: relative;
   height: $category-width;
+
+  &:not(:last-child) {
+    margin-bottom: 2rem;
+  }
 
   &__category {
 
@@ -83,7 +86,7 @@ $graph-width: 50rem;
         }
       }
     }
-    
+
   }
 }
 
